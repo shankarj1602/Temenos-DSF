@@ -1,0 +1,50 @@
+{
+  "header" : {
+    "id" : "ACCOUNT-ADJUST.BILL",
+    "dsfApiType" : "AA.PROPERTY.CLASS.ACTION",
+    "dsfApiComponent" : "t24data",
+    "dsfApiPhase" : "main",
+    "metadata" : {
+      "installed" : "NO",
+      "release" : "R22"
+    },
+    "ttag" : {
+      "t24" : { }
+    }
+  },
+  "body" : {
+    "FULL.DESCRIPTION" : [ {
+      "FULL.DESCRIPTION" : "ADJUST.BILL ACTION FOR ACCOUNT"
+    } ],
+    "ACTION" : "ADJUST.BILL",
+    "PRODUCT.LINE" : [ {
+      "PRODUCT.LINE" : "LENDING",
+      "ACCOUNTING" : "YES"
+    }, {
+      "PRODUCT.LINE" : "DEPOSITS",
+      "ACCOUNTING" : "YES"
+    }, {
+      "PRODUCT.LINE" : "SAVINGS",
+      "ACCOUNTING" : "NO"
+    }, {
+      "PRODUCT.LINE" : "ACCOUNTS",
+      "ACCOUNTING" : "NO"
+    }, {
+      "PRODUCT.LINE" : "AGENT",
+      "ACCOUNTING" : "YES"
+    }, {
+      "PRODUCT.LINE" : "FACILITY",
+      "ACCOUNTING" : "NO"
+    }, {
+      "PRODUCT.LINE" : "REWARDS",
+      "ACCOUNTING" : "NO"
+    }, {
+      "PRODUCT.LINE" : "SAFE.DEPOSIT.BOX",
+      "ACCOUNTING" : "YES"
+    } ],
+    "PROPERTY.CLASS" : "ACCOUNT",
+    "SHORT.DESC" : [ {
+      "SHORT.DESC" : "ADJUST.BILL ACTION"
+    } ]
+  }
+}
