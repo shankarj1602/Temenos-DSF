@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "id" : "ACCOUNT.PRINCIPAL",
+    "dsfApiType" : "AA.PAYMENT.TYPE",
+    "dsfApiComponent" : "t24data",
+    "dsfApiPhase" : "main",
+    "metadata" : {
+      "installed" : "NO",
+      "release" : "R22"
+    },
+    "ttag" : {
+      "t24" : { }
+    }
+  },
+  "body" : {
+    "CALC.TYPE" : "ACTUAL",
+    "DESCRIPTION" : [ {
+      "DESCRIPTION" : "Payment type for Transform activity"
+    } ],
+    "MAND.PROP.CLASS" : [ {
+      "MAND.PROP.CLASS" : "ACCOUNT"
+    } ],
+    "TYPE" : "CALCULATED"
+  }
+}
